@@ -1,0 +1,43 @@
+NEXO — BOCETO INTERACTIVO 0.1
+
+ABRIR
+Haz doble clic en index.html. Mantén index.html, styles.css, engine.js y app.js en la misma carpeta. No requiere internet, instalaciones, cuentas, servicios de IA ni pagos. Compatible con navegadores modernos (Edge, Chrome y Firefox). El diseño se adapta a pantallas pequeñas.
+
+RECORRIDO DE PRUEBA (3–5 MINUTOS)
+1. Abre index.html. La sesión de Jean ya tiene datos y el día organizado. Observa la prioridad de Cálculo.
+2. Pulsa Surgió un imprevisto. El estudio evita 15:00–16:00 y conserva el tiempo personal de 18:00–19:00. Deshacer cambio restaura el estado anterior.
+3. En Mis tareas, registra una entrega con curso, duración, plazo y peso. Se incorpora al plan. Puedes completar, reabrir o eliminar tareas.
+4. En Mis notas, cambia un promedio entre 0 y 20. Observa cómo cambia el orden. La regla simplificada está explicada en la pantalla.
+5. Agrega varias tareas de 4 horas para comprobar la alerta de sobrecarga. La demo deja minutos pendientes sin ocupar el descanso.
+6. En Probar la idea, registra observaciones reales y descarga la bitácora.
+
+PROTOTIPO TANGIBLE Y FOTOGRAFÍAS
+La web es un prototipo digital, no constituye por sí sola toda la evidencia física solicitada en la actividad. Incluye un kit imprimible para apoyar esa parte.
+En Probar la idea, pulsa Imprimir kit de papel. Usa papel A4, cartón, tijeras y tarjetas recortadas para representar la agenda físicamente. Si aún no organizaste el día, el kit calcula un plan con los pendientes actuales.
+Solicita a una persona que organice las tarjetas, introduzca el imprevisto y explique el resultado. Toma fotografías reales con su permiso: vista general del prototipo, manos interactuando y resultado final. Adjunta esas fotografías por separado a tu entrega académica. No se han fabricado fotografías ni resultados de validación.
+
+ALCANCE
+Se basa en la propuesta NEXO y la presentación suministradas: planificación adaptativa para universitarios, priorización según rendimiento y urgencia, sesiones breves, replanificación y tiempo protegido. El anexo de 64 ideas se utilizó como contexto del proceso creativo, no como listado de funciones a implementar.
+Estética deliberada de cuaderno, papel y notas adhesivas. Colores índigo, verde y coral inspirados en la propuesta, sin fijar una identidad final.
+Semana y estudiante ficticios de demostración. Simulación de un solo día, con clases y bloques protegidos predefinidos. No incluye motor comercial, sincronización, OCR, IA, autenticación ni integraciones. La regla de prioridad es demostrativa; la distribución puede dejar carga pendiente cuando no hay espacio.
+Se guarda en el almacenamiento local del navegador cuando está disponible. La persistencia de archivos abiertos directamente puede variar según navegador. Las observaciones se pueden descargar antes de cerrar o reiniciar. No se transmiten datos a servidores.
+
+ARCHIVOS
+index.html: estructura y pantallas.
+styles.css: aspecto de boceto, adaptación móvil e impresión.
+engine.js: prioridad y distribución de sesiones.
+app.js: interacción, estado local y kit imprimible.
+LEEME.txt: instrucciones de uso y prueba.
+
+SIMULACIÓN CON DATOS YA INGRESADOS
+Abre index.html. Incluye un perfil ficticio de Jean, 3 cursos, 6 tareas (2 completadas), 4 horas pendientes y un plan generado. Prueba los tres botones de la tarjeta inicial: completar repaso, recibir entrega urgente y activar imprevisto. Reiniciar simulación recupera los datos iniciales. Toda la experiencia está integrada en index.html. Los datos y acciones representan un caso ficticio, no una prueba con un usuario real.
+
+SELECTOR DE CUADERNOS
+Todo sigue en index.html. En la parte superior hay tarjetas para Jean, Carlos, María, Sandra y Nuevo alumno. En pantallas pequeñas puedes desplazarlas horizontalmente.
+Jean: 6 tareas, 2 completadas, 4 horas pendientes y prioridad en Cálculo.
+Carlos: 5 tareas, 1 completada, 7 horas pendientes y sobrecarga visible.
+María: 5 tareas, 2 completadas y 2 horas pendientes.
+Sandra: 4 tareas pendientes, 4.5 horas de trabajo y atención a Innovación.
+Cada alumno tiene promedios distintos. Todos comparten el horario base de demostración. Los cambios, notas y observaciones se guardan por alumno. Cambiar de cuaderno no borra avances; Reiniciar simulación solo reinicia el alumno seleccionado.
+Nuevo alumno empieza sin tareas, sin promedios y sin actividades en agenda. Registra la primera tarea en Mis tareas e ingresa promedios en Mis notas cuando los tengas. Los tres cursos disponibles son una plantilla de la demo; no tienen notas precargadas. Sin promedio, la prioridad usa urgencia y peso. Al añadir tareas se aplica el horario base con descanso protegido.
+profiles.js contiene los datos ficticios de los cuatro alumnos y el estado vacío de Nuevo alumno.
